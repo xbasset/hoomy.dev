@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hoomy is an open-source AI companion exploring meaningful progress per unit of human attention.">
+    <meta name="theme-color" content="#f7f8f9">
+    <title>Hoomy — Your attention matters</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Hoomy home">Hoomy</a>
+      <a class="header-link" href="mailto:contact+hoomy@xbasset.com">Reach out <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow hero-enter hero-enter-1">Open-source research project</p>
+          <h1 class="hero-enter hero-enter-2">
+            AI can do more than ever.
+            <span>Your attention is still the bottleneck.</span>
+          </h1>
+          <p class="lede hero-enter hero-enter-3">
+            Hoomy is an open-source AI companion that learns what helps you thrive—and when to act, ask, or stay quiet.
+          </p>
+          <p class="research-meta hero-enter hero-enter-4">Working note 01 <span>·</span> September 2026</p>
+        </div>
+
+        <figure class="attention-field hero-enter hero-enter-4">
+          <svg viewBox="0 0 620 620" aria-hidden="true" focusable="false">
+            <defs>
+              <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%">
+                <feGaussianBlur stdDeviation="9" result="blur"></feGaussianBlur>
+                <feMerge>
+                  <feMergeNode in="blur"></feMergeNode>
+                  <feMergeNode in="SourceGraphic"></feMergeNode>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <circle class="orbit orbit-outer" cx="310" cy="310" r="238"></circle>
+            <circle class="orbit orbit-inner" cx="310" cy="310" r="145"></circle>
+
+            <path class="trace trace-one" pathLength="1" d="M62 154 C180 146, 191 284, 292 303"></path>
+            <path class="trace trace-two" pathLength="1" d="M558 122 C446 163, 452 270, 328 303"></path>
+            <path class="trace trace-three" pathLength="1" d="M548 479 C430 467, 413 348, 330 317"></path>
+            <path class="trace trace-four" pathLength="1" d="M70 492 C180 470, 194 353, 292 318"></path>
+
+            <circle class="source-dot source-dot-one" cx="62" cy="154" r="5"></circle>
+            <circle class="source-dot source-dot-two" cx="558" cy="122" r="5"></circle>
+            <circle class="source-dot source-dot-three" cx="548" cy="479" r="5"></circle>
+            <circle class="source-dot source-dot-four" cx="70" cy="492" r="5"></circle>
+
+            <circle class="focus-halo" cx="310" cy="310" r="54"></circle>
+            <circle class="focus" cx="310" cy="310" r="12" filter="url(#soft-glow)"></circle>
+          </svg>
+          <p class="field-label label-one">ideas</p>
+          <p class="field-label label-two">agents</p>
+          <p class="field-label label-three">projects</p>
+          <p class="field-label label-four">obligations</p>
+          <p class="focus-label">your attention</p>
+          <figcaption class="figure-caption">Fig. 01 — Competing demands around one finite attention budget.</figcaption>
+        </figure>
+
+        <a class="scroll-cue hero-enter hero-enter-4" href="#experiment">
+          First experiment <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="section experiment reveal" id="experiment">
+        <div class="section-index" aria-hidden="true">01</div>
+        <div class="section-copy">
+          <p class="eyebrow">Starting with coding agents</p>
+          <h2>An attention layer across your coding agents.</h2>
+          <p class="section-lede">Surfacing what deserves your attention next.</p>
+          <p>
+            It will learn from the work traces they already leave behind, across machines and projects with different goals, rhythms, and constraints.
+          </p>
+        </div>
+      </section>
+
+      <section class="trust reveal" id="trust">
+        <div class="trust-intro">
+          <p class="eyebrow">Built in the open</p>
+          <h2>Personal AI should be open, inspectable, and under your control.</h2>
+        </div>
+        <div class="principles" aria-label="Hoomy principles">
+          <p><span>01</span>Your raw work stays local.</p>
+          <p><span>02</span>You choose what Hoomy sees.</p>
+          <p><span>03</span>Anyone can inspect it, adapt it, and run the whole system themselves.</p>
+        </div>
+      </section>
+
+      <section class="section status reveal" id="status">
+        <div class="section-index" aria-hidden="true">02</div>
+        <div class="section-copy">
+          <p class="eyebrow">Where we are</p>
+          <h2>Early, deliberately.</h2>
+          <p>
+            The work will unfold through open research, system designs, and small working experiments.
+          </p>
+        </div>
+      </section>
+
+      <section class="about reveal" id="about">
+        <img class="portrait" src="assets/xavier-profile.png" alt="Xavier Basset">
+        <div class="about-copy">
+          <p class="eyebrow">Research context</p>
+          <p class="about-statement">
+            For over a decade, I’ve built AI assistants around one question: how can technology understand people while remaining worthy of their trust?
+          </p>
+          <p>I’m <a href="https://xbasset.github.io">Xavier Basset</a>. Hoomy continues that work, in the open.</p>
+          <p class="contact-note">
+            If that resonates, contact me at
+            <a class="contact-address" href="mailto:contact+hoomy@xbasset.com">contact+hoomy (at) xbasset.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top">Hoomy</a>
+      <p>Meaningful progress, with your attention in mind.</p>
+      <p>© 2026 Xavier Basset</p>
+    </footer>
+  </body>
+</html>
