@@ -652,3 +652,48 @@ footer p:last-child {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* The film shares the experiment's editorial grid and remains user initiated. */
+.experiment-film {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: clamp(1rem, 3vw, 3rem) 0 0;
+  min-width: 0;
+}
+.experiment-film video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.experiment-film video:focus-visible,
+.film-summary summary:focus-visible {
+  outline: 3px solid var(--signal);
+  outline-offset: 5px;
+}
+.experiment-film figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+}
+.film-summary {
+  max-width: 48rem;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.film-summary summary {
+  width: fit-content;
+  cursor: pointer;
+  color: var(--signal-dark);
+  text-underline-offset: 0.2em;
+}
+.film-summary summary:hover { text-decoration: underline; }
+.film-summary li + li { margin-top: 0.7rem; }
